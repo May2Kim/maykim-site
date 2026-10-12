@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>김혜원 | 포트폴리오</title>
+<meta name="description" content="IT 시스템 운영과 회계 실무를 준비하는 김혜원의 포트폴리오">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{
+    --bg:#f7f6f3; --surface:#ffffff; --text:#1f2328; --muted:#6b6f76;
+    --line:#e6e3dd; --accent:#2f5d8a; --accent-soft:#e8eff6;
+    --accent2:#2e7d5b; --accent2-soft:#e6f2ec;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#16181b; --surface:#1f2226; --text:#eceef0; --muted:#a0a6ad;
+      --line:#2e3238; --accent:#8db6e0; --accent-soft:#22303d;
+      --accent2:#8fd0b0; --accent2-soft:#1f3229;
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
+  header{padding:88px 0 48px}
+  .eyebrow{font-size:14px;letter-spacing:.08em;color:var(--muted);font-weight:500}
+  h1{font-size:44px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+  h1 small{font-size:20px;font-weight:500;color:var(--muted);margin-left:10px;letter-spacing:0}
+  .tagline{font-size:22px;margin-top:20px;font-weight:500}
+  .fields{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:36px}
+  .field{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .field .icon{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+  .field.it .icon{background:var(--accent-soft)}
+  .field.acc .icon{background:var(--accent2-soft)}
+  .field h3{font-size:19px;font-weight:700}
+  .field p{color:var(--muted);font-size:15px;margin-top:6px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .tag{font-size:13px;padding:4px 10px;border-radius:999px;font-weight:500}
+  .it .tag{background:var(--accent-soft);color:var(--accent)}
+  .acc .tag{background:var(--accent2-soft);color:var(--accent2)}
+  section{padding:40px 0;border-top:1px solid var(--line)}
+  h2{font-size:14px;letter-spacing:.08em;color:var(--muted);font-weight:600;margin-bottom:20px}
+  .list{display:flex;flex-direction:column;gap:14px}
+  .item{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+  .item .name{font-weight:600;font-size:17px}
+  .item .desc{color:var(--muted);font-size:15px;margin-top:2px}
+  .item .meta{color:var(--muted);font-size:14px;white-space:nowrap}
+  .badge{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px;margin-left:8px;vertical-align:middle;background:var(--line);color:var(--muted)}
+  .badge.on{background:var(--accent-soft);color:var(--accent)}
+  .job ul{margin-top:8px;padding-left:18px;color:var(--muted);font-size:15px}
+  .contact a{color:var(--accent);font-weight:600;font-size:18px;text-decoration:none;border-bottom:1px solid currentColor}
+  footer{padding:40px 0 60px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+  @media (max-width:640px){
+    header{padding:56px 0 36px}
+    h1{font-size:34px}
+    h1 small{display:block;margin:4px 0 0}
+    .tagline{font-size:19px}
+    .fields{grid-template-columns:1fr}
+    .item{flex-direction:column;gap:2px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">PORTFOLIO</div>
+    <h1>김혜원<small>Hyewon Kim</small></h1>
+    <p class="tagline">꼼꼼하게 관리하고, 정확하게 처리합니다.</p>
+
+    <div class="fields">
+      <div class="field it">
+        <div class="icon">🖥️</div>
+        <h3>IT 시스템 운영</h3>
+        <p>Microsoft 365 환경의 사용자·서비스 관리를 실습하며 시스템 운영 역량을 쌓고 있습니다.</p>
+        <div class="tags">
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">관리 센터 운영</span>
+          <span class="tag">Copilot 활용</span>
+          <span class="tag">OA 활용</span>
+        </div>
+      </div>
+      <div class="field acc">
+        <div class="icon">📊</div>
+        <h3>회계 실무</h3>
+        <p>세무회계 실무 과정을 수료하고 전표 처리와 세무 기초를 익혔습니다.</p>
+        <div class="tags">
+          <span class="tag">전표 처리</span>
+          <span class="tag">세무회계 기초</span>
+          <span class="tag">KcLep</span>
+          <span class="tag">엑셀 데이터 정리</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>자격증</h2>
+    <div class="list">
+      <div class="item"><div class="name">컴퓨터활용능력 2급</div><div class="meta">대한상공회의소</div></div>
+      <div class="item"><div class="name">ITQ 한글 · 엑셀 · 파워포인트 <span class="badge on">3과목 A등급</span></div><div class="meta">한국생산성본부</div></div>
+      <div class="item"><div class="name">전산회계 1급 <span class="badge">취득 예정</span></div><div class="meta">한국세무사회</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>교육</h2>
+    <div class="list">
+      <div class="item">
+        <div><div class="name">M365 시스템 운영 관리자 과정 <span class="badge on">수강 중</span></div>
+        <div class="desc">Microsoft 365 관리 센터 운영, 사용자·서비스 관리, Copilot 활용 · 172시간</div></div>
+        <div class="meta">2026</div>
+      </div>
+      <div class="item">
+        <div><div class="name">세무회계실무과정 <span class="badge">수료</span></div>
+        <div class="desc">전표 처리, 세무회계 실무 · 200시간</div></div>
+        <div class="meta">수료</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>경력</h2>
+    <div class="item job">
+      <div>
+        <div class="name">한살림남서울소비자생활협동조합 · 매장활동가</div>
+        <ul>
+          <li>조합원 응대 및 물품 예약 관리</li>
+          <li>재고 파악 · 정리</li>
+          <li>매장 행사 운영 및 관련 교육 이수</li>
+        </ul>
+      </div>
+      <div class="meta">2022.01 – 2026.02</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>연락처</h2>
+    <a href="mailto:speed940322@outlook.com">speed940322@outlook.com</a>
+  </section>
+
+  <footer>© 2026 김혜원 · maykim.kr</footer>
+</div>
+</body>
+</html>
